@@ -4,7 +4,7 @@
 <br/>
 
 ## Project Requirement
-Utilizes HTML and CSS skills to build out a personal blog website.<br/>
+Utilize HTML and CSS skills to build out a personal blog website.<br/>
 Custom webpage design.<br/>
 Files are appropriately structured<br/>
 Use proper CSS and HTML formatting & style.<br/>
