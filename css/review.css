@@ -73,6 +73,10 @@
 		margin-bottom: 50px;
 	}
 
+	#review figure img {
+		width: 100%;
+	}
+
 	.title h2 {
 		margin-bottom: 0;
 		line-height: 0.9;
