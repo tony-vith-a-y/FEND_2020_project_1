@@ -12,4 +12,4 @@ Use proper CSS and HTML formatting & style.<br/>
 <br/>
 
 ## Source
-All images and reviews belong to [tom's guide](https://www.tomsguide.com/). I'm using the information from [tom's guide](https://www.tomsguide.com/) for education purpsoes only.
+All images and reviews belong to [tom's guide](https://www.tomsguide.com/). I'm using the information from [tom's guide](https://www.tomsguide.com/) for educational purpsoes only.
