@@ -1,5 +1,6 @@
 ## Udacity (FEND 2020) Personal Blog Website
 (Project 1)
+[view project](https://tony-vith-a-y.github.io/FEND_2020_project_1/)
 <br/>
 <br/>
 
