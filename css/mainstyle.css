@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700&display=swap');
 
 * {
 	padding: 0;
@@ -9,6 +10,13 @@
 
 a {
 	text-decoration: none;
+}
+
+b,
+u,
+i {
+	font-size: inherit;
+	font-family: inherit;
 }
 
 main {
@@ -44,7 +52,7 @@ main {
 	font-size: 56px;
 	background-color: white;
 	color: #f8aa8b;
-	padding: 0px 25px;
+	padding: 0 25px;
 }
 
 #upcoming {
