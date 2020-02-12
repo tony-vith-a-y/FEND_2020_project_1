@@ -1,1 +1,62 @@
 @import "mainstyle.css";
+
+p {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+#bio-Section {
+	grid-column: 1/3;
+	margin-top: 50px;
+}
+
+#bio-Section h3 {
+	font-size: 50px;
+	padding-top: 50px;
+	margin-bottom: -60px;
+}
+
+.tech-office {
+	width: 125%;
+	margin: 15px 0;
+}
+
+.bio {
+	padding-top: 150px;
+}
+
+.bio h4 {
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.avatar {
+	width: 200px;
+	height: auto;
+	float: right;
+	padding: 5px 0 5px 25px;
+}
+
+.avatar img {
+	width: 100%;
+}
+
+@media (max-width: 750px) {
+	#bio-Section {
+		grid-column: 1/5;
+		margin-bottom: 50px;
+	}
+
+	#bio-Section h3 {
+		margin-bottom: -28px;
+	}
+
+	.avatar {
+		width: 150px;
+	}
+
+	.bio {
+		padding-top: 65px;
+	}
+}
