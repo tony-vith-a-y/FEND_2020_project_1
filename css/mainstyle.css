@@ -21,7 +21,7 @@ i {
 }
 
 main {
-	width: 100vw;
+	width: 100%;
 	display: flex;
 	justify-content: space-around;
 }
@@ -142,7 +142,7 @@ li {
 	background-position: -177px -206px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 524px) {
 	#logoHeader {
 		font-size: 38px;
 		padding: 0;
@@ -162,7 +162,12 @@ li {
 
 	#theFooter {
 		justify-content: space-between;
-		margin-top: 30px;
-		padding: 20px 15px;
+		margin-top: 0;
+		padding: 30px 15px;
+		flex-flow: column;
+	}
+
+	#theFooter p {
+		padding-bottom: 10px;
 	}
 }

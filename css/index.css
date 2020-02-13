@@ -5,7 +5,6 @@
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 	grid-column: 1/4;
-	/* padding-right: 100px; */
 	margin-top: 50px;
 }
 
@@ -17,6 +16,7 @@
 	height: 350px;
 	margin: 20px 0;
 	overflow: hidden;
+	padding: 10px;
 }
 
 .titleGroup {
@@ -47,10 +47,11 @@
 	margin-right: 50px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 524px) {
 	#cards {
 		grid-column: 1/5;
 		margin-bottom: 50px;
+		padding: 10px;
 	}
 
 	.card-content {
