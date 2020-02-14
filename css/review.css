@@ -5,7 +5,7 @@
 	flex-flow: column;
 	grid-column: 1/4;
 	margin-top: 50px;
-	width: 100%;
+	width: 90%;
 }
 
 #review nav {
@@ -66,10 +66,20 @@
 	padding-bottom: 10px;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 645px) {
+	.title h2 {
+		font-size: 42px;
+	}
+}
+
+@media (max-width: 530px) {
 	#review {
 		grid-column: 1/5;
 		margin-bottom: 50px;
+	}
+
+	#review {
+		width: 100%;
 	}
 
 	#review figure img {
@@ -77,6 +87,7 @@
 	}
 
 	.title h2 {
+		font-size: 36px;
 		margin-bottom: 0;
 		line-height: 0.9;
 	}

@@ -50,7 +50,7 @@ main {
 
 #logoHeader {
 	font-family: 'Black Ops One', cursive;
-	font-size: 56px;
+	font-size: 45px;
 	background-color: white;
 	color: #f8aa8b;
 	padding: 0 25px;
@@ -59,31 +59,33 @@ main {
 #upcoming {
 	border-radius: 25px;
 	grid-column: 4/5;
-	padding: 10px;
-	margin-top: 50px;
-	margin-bottom: 25px;
-	margin-left: 50px;
+	margin: 50px auto 25px auto;
+	width: 175px;
 	display: flex;
 	flex-direction: column;
-	width: 200px;
+	/* padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	margin-left: 50px; */
 }
 
 #upcoming h3 {
 	font-family: 'Black Ops One', cursive;
-	font-size: 31px;
+	font-size: 20px;
 	color: #e27d5f;
 	margin-bottom: 40px;
 	text-align: center;
 }
 
-.upcomingImages:last-child {
-	border-bottom: none;
-}
-
 .upcomingImages {
-	margin-top: 20px;
+	padding-top: 10px;
 	padding-bottom: 20px;
 	border-bottom: 3px dotted #e27d5f;
+	cursor: pointer;
+}
+
+.upcomingImages:last-child {
+	border-bottom: none;
 }
 
 .upcomingImages img {
@@ -93,7 +95,7 @@ main {
 }
 
 .upcomingImages figcaption {
-	font-size: 18px;
+	font-size: 16px;
 	padding-top: 3px;
 }
 
@@ -120,6 +122,7 @@ li {
 	width: 85px;
 	background-image: url(../images/social_media.png);
 	zoom: 35%;
+	padding-right: 25px;
 }
 
 #github {
@@ -142,11 +145,21 @@ li {
 	background-position: -177px -206px;
 }
 
-@media (max-width: 524px) {
+@media (max-width: 590px) {
+	#logoHeader {
+		font-size: 38px;
+	}
+}
+
+@media (max-width: 530px) {
 	#logoHeader {
 		font-size: 38px;
 		padding: 0;
 		text-align: center;
+	}
+
+	.card-content {
+		zoom: 75%;
 	}
 
 	#upcoming {
@@ -154,10 +167,16 @@ li {
 		width: auto;
 		border-radius: 15px;
 		margin-left: 0;
+		margin: 0;
+		align-items: center;
 	}
 
 	#upcoming h3 {
 		margin-top: 10px;
+	}
+
+	.upcomingImages {
+		width: 250px;
 	}
 
 	#theFooter {

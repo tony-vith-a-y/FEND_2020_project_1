@@ -12,15 +12,15 @@
 	background-color: #d0edf9;
 	box-shadow: 3px 5px 7px 0 #9fadb3;
 	border-radius: 15px 15px 175px 175px;
-	width: 300px;
-	height: 350px;
-	margin: 20px 0;
+	width: 245px;
+	height: 380px;
+	margin: 10px;
 	overflow: hidden;
-	padding: 10px;
+	/* padding: 10px; */
 }
 
 .titleGroup {
-	height: 115px;
+	height: 145px;
 	padding: 10px;
 }
 
@@ -47,15 +47,11 @@
 	margin-right: 50px;
 }
 
-@media (max-width: 524px) {
+@media (max-width: 530px) {
 	#cards {
 		grid-column: 1/5;
 		margin-bottom: 50px;
 		padding: 10px;
-	}
-
-	.card-content {
-		width: auto;
 	}
 
 	.card-content img {
