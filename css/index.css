@@ -1,5 +1,3 @@
-@import "mainstyle.css";
-
 #cards {
 	display: flex;
 	justify-content: space-evenly;
