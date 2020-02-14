@@ -42,7 +42,7 @@ p {
 	width: 100%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 530px) {
 	#bio-Section {
 		grid-column: 1/5;
 		margin-bottom: 50px;
